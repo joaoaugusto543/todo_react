@@ -16,7 +16,7 @@ export default function Modal({children}: Props) : ReactElement {
     <div id="modal" className='hide' >
         <div className='fadee' onClick={closeModal}></div>
         <div className='modal'>
-            <h1>texto modal</h1>
+            <h1>Editar tarefa</h1>
             {children}
         </div>
     </div>
